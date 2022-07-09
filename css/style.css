@@ -10,7 +10,7 @@ body {
     --white-color: #ffffff;
     --footer-color: #2f303a;
     --stress-color: #2196f3;
-    --main-front-size: 14px;
+    --main-font-size: 14px;
     --letter-spacing: 0.03em;
     --letter-spacing-big: 0.06em;
 }
@@ -31,6 +31,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
 }
 
 .main-navbar-left {
@@ -70,8 +71,6 @@ header a:focus {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
-    flex-direction: row;
     width: 254px;
 }
 
@@ -97,23 +96,28 @@ header a:focus {
     line-height: 1.71;
 }
 
+/* main */
+
 .slider {
     background-color: #2f303a;
     height: 600px;
     width: 100%;
+    padding-top: 200px;
+}
+
+.solution {
+    text-align: center;
 }
 
 .solutions-text {
-    color: #ffffff;
+    color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     text-align: center;
+    margin: auto;
     width: 696px;
     height: 120px;
-    top: 280px;
-    left: 452px;
     letter-spacing: 0.06em;
-    line-height: 1.36;
     text-transform: uppercase;
 }
 
@@ -129,26 +133,33 @@ header a:focus {
     letter-spacing: 0.06em;
     cursor: pointer;
     color: var(--white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 30px;
 }
 
 .advantages {
     list-style-type: none;
+    display: flex;
+    gap: 30px;
 }
 
 .advantages-title {
     font-weight: 700;
-    font-size: var(--main-front-size);
+    font-size: 14px;
     letter-spacing: var(--letter-spacing);
-    vertical-align: top;
-    line-height: 100%;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin: 0;
 }
 
 .advantages-text {
-    font-size: var(--main-front-size);
+    font-size: var(--main-font-size);
     letter-spacing: var(--letter-spacing);
-    vertical-align: top;
-    line-height: 146%;
-    color: var(---descriptions-color);
+    color: var(--descriptions-color);
+    line-height: 1.7;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .work-title {
@@ -222,7 +233,7 @@ footer {
 
 address {
     color: var(--white-color);
-    font-size: var(--main-front-size);
+    font-size: var(--main-font-size);
     vertical-align: top;
     letter-spacing: var(--letter-spacing);
     font-style: normal;
@@ -233,7 +244,7 @@ address {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     letter-spacing: var(--letter-spacing);
-    font-size: var(--main-front-size);
+    font-size: var(--main-font-size);
 }
 
 .main-address-link:hover,
