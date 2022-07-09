@@ -15,6 +15,11 @@ body {
     --letter-spacing-big: 0.06em;
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
 .section {
     padding-bottom: 94px;
     padding-top: 94px;
@@ -167,10 +172,16 @@ header a:focus {
     font-weight: 700;
     letter-spacing: var(--letter-spacing);
     text-align: center;
+    line-height: 1.17;
 }
 
 .work {
     list-style-type: none;
+    gap: 30px;
+}
+
+.work li {
+    display: inline-block;
 }
 
 .team {
