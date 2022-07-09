@@ -21,7 +21,12 @@ body {
     --letter-spacing-big: 0.06em;
 }
 
+.section {
+    padding: 94px 0px 94px 0px;
+}
+
 .container {
+    width: 1200px;
     margin: auto;
 }
 
