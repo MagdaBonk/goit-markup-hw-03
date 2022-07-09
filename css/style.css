@@ -1,0 +1,252 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+}
+
+:root {
+    --contacts-color: #757575;
+    --links: #000000;
+    --button: #2196f3;
+    --button2: #ffffff;
+    --footer-color: #2f303a;
+    --stress-color: #2196f3;
+    --main-front-size: 14px;
+    --letter-spacing: 0.03em;
+}
+
+#main-page a {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+}
+
+.web {
+    color: #2196f3;
+}
+
+.studio {
+    color: #000000;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--links);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.38;
+    display: inline;
+}
+
+.contacts a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.38;
+    color: var(--contacts-color);
+}
+
+header a:hover,
+header a:focus {
+    color: #2196f3;
+}
+
+.service {
+    background-color: #2f303a;
+    width: 100%;
+    height: 600px;
+}
+
+.solutions {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+    width: 696px;
+    height: 120px;
+    top: 280px;
+    left: 452px;
+    letter-spacing: 0.06em;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.button-solution {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: var(--button);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--button2);
+}
+
+.advantages ul {
+    list-style-type: none;
+}
+
+.our-advantages {
+    font-weight: 700;
+    font-size: var(--main-front-size);
+    letter-spacing: var(--letter-spacing);
+    vertical-align: top;
+    line-height: 100%;
+}
+
+.our-advantages-text {
+    font-size: var(--main-front-size);
+    letter-spacing: var(--letter-spacing);
+    vertical-align: top;
+    line-height: 146%;
+    color: var(--contacts-color);
+}
+
+.work {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: var(--letter-spacing);
+    text-align: center;
+}
+
+.our-work {
+    list-style-type: none;
+}
+
+.our-work-img img {
+    width: 370px;
+    height: 294px;
+}
+
+.stuff {
+    background-color: #f5f4fa;
+    width: 100%;
+}
+
+.our-stuff {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: var(--letter-spacing);
+    text-align: center;
+}
+
+.stuff-figures {
+    list-style-type: none;
+}
+
+.stuff-figures-windows {
+    width: 250px;
+    height: 368px;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.people-occupation {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+}
+
+.people {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
+}
+
+footer {
+    background-color: #2f303a;
+}
+
+#main-page2 a {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.web2 {
+    color: var(--button);
+}
+
+.studio2 {
+    color: var(--button2);
+}
+
+address {
+    color: var(--button2);
+    font-size: var(--main-front-size);
+    vertical-align: top;
+    letter-spacing: var(--letter-spacing);
+    font-style: normal;
+}
+
+.main-address-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    letter-spacing: var(--letter-spacing);
+    font-size: var(--main-front-size);
+}
+
+.main-address-link:hover,
+.main-address-link:focus {
+    color: #2196f3;
+}
+
+.button-portfolio-all {
+    list-style-type: none;
+}
+
+.button-portfolio {
+    width: 93px;
+    height: 38px;
+    border: none;
+    background-color: #f5f4fa;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: var(--links);
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    color: var(--button2);
+    background-color: #2196f3;
+}
+
+.check-portfolio {
+    list-style-type: none;
+}
+
+.portfolio-things {
+    width: 370px;
+    height: 404px;
+}
+
+.portfolio-things-tittle {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    vertical-align: top;
+}
+
+.portfolio-text {
+    color: var(--contacts-color);
+    font-size: 16px;
+    letter-spacing: var(--letter-spacing);
+    vertical-align: top;
+}
