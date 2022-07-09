@@ -4,7 +4,11 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/goit-markup-hw-02/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        />
+        <link rel="stylesheet" href="css/style.css" />
         <title>Studio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,42 +19,56 @@
     </head>
     <body>
         <header>
-            <h2 id="main-page">
-                <a href="/goit-markup-hw-02/index.html"
-                    ><span class="web">Web</span
-                    ><span class="studio">Studio</span></a
-                >
-            </h2>
-            <nav class="navigation">
-                <a href="#">Agencja</a>
-                <a href="/goit-markup-hw-02/portfolio.html">Portfolio</a>
-                <a href="#">Kontakt</a>
-            </nav>
-            <div class="contacts">
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a href="tel:+48111111111">+48111111111</a>
-            </div>
+            <section class="section navigation">
+                <div class="container">
+                    <div class="main-navbar">
+                        <h2 id="navigation-logo">
+                            <a href="/goit-markup-hw-02/index.html"
+                                ><span class="web">Web</span
+                                ><span class="studio">Studio</span></a
+                            >
+                        </h2>
+                        <nav class="navigation-menu">
+                            <a href="#">Agencja</a>
+                            <a href="/goit-markup-hw-02/portfolio.html"
+                                >Portfolio</a
+                            >
+                            <a href="#">Kontakt</a>
+                        </nav>
+                        <div class="contacts">
+                            <a href="mailto:info@devstudio.com"
+                                >info@devstudio.com</a
+                            >
+                            <a href="tel:+48111111111">+48111111111</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </header>
         <main>
-            <div class="service">
-                <h1 class="solutions">
-                    efektywne rowiązania dla waszego biznesu
-                </h1>
-                <button
-                    class="button-solution"
-                    type="button"
-                    onclick="alert('reakcja')"
-                >
-                    Zamów usługę
-                </button>
-            </div>
+            <section class="section slider">
+                <div class="container">
+                    <div class="solutions">
+                        <h1 class="solutions-text">
+                            efektywne rowiązania dla waszego biznesu
+                        </h1>
+                        <button
+                            type="button"
+                            class="button-solution"
+                            onclick="alert('reakcja')"
+                        >
+                            Zamów usługę
+                        </button>
+                    </div>
+                </div>
+            </section>
 
-            <div>
-                <div class="advantages">
-                    <ul>
+            <section class="section features">
+                <div class="container">
+                    <ul class="advantages">
                         <li>
-                            <h4 class="our-advantages">LOREM IPSUM</h4>
-                            <p class="our-advantages-text">
+                            <h4 class="advantages-title">LOREM IPSUM</h4>
+                            <p class="advantages-text">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -58,8 +76,8 @@
                         </li>
 
                         <li>
-                            <h4 class="our-advantages">LOREM IPSUM</h4>
-                            <p class="our-advantages-text">
+                            <h4 class="advantages-title">LOREM IPSUM</h4>
+                            <p class="advantages-text">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -67,8 +85,8 @@
                         </li>
 
                         <li>
-                            <h4 class="our-advantages">LOREM IPSUM</h4>
-                            <p class="our-advantages-text">
+                            <h4 class="advantages-title">LOREM IPSUM</h4>
+                            <p class="advantages-text">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -76,8 +94,8 @@
                         </li>
 
                         <li>
-                            <h4 class="our-advantages">LOREM IPSUM</h4>
-                            <p class="our-advantages-text">
+                            <h4 class="advantages-title">LOREM IPSUM</h4>
+                            <p class="advantages-text">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -85,14 +103,13 @@
                         </li>
                     </ul>
                 </div>
+            </section>
 
-                <div>
-                    <h2 class="work">Czym się zajmujemy</h2>
-                </div>
-
-                <div class="work">
-                    <ul class="our-work">
-                        <li class="our-work-img">
+            <section class="section whatwedo">
+                <div class="container">
+                    <h2 class="work-title">Czym się zajmujemy</h2>
+                    <ul class="work">
+                        <li>
                             <img
                                 src="images/studio/website_programming.jpg"
                                 alt="website programming"
@@ -101,7 +118,7 @@
                             />
                         </li>
 
-                        <li class="our-work-img">
+                        <li>
                             <img
                                 src="images/studio/application_development.jpg"
                                 alt="application development"
@@ -110,7 +127,7 @@
                             />
                         </li>
 
-                        <li class="our-work-img">
+                        <li>
                             <img
                                 src="images/studio/choosing_colors.jpg"
                                 alt="choosing colors"
@@ -120,14 +137,14 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </section>
 
-            <div class="stuff">
-                <h2 class="our-stuff">Nasz zespół</h2>
-                <div>
-                    <ul class="stuff-figures">
+            <section class="section team">
+                <div class="container">
+                    <h2 class="team-title">Nasz zespół</h2>
+                    <ul class="team-figures">
                         <li>
-                            <figure class="stuff-figures-windows">
+                            <figure class="team-figures-windows">
                                 <img
                                     src="images/studio/Product_Designer.jpg"
                                     alt="John Doe Product Designer"
@@ -144,7 +161,7 @@
                         </li>
 
                         <li>
-                            <figure class="stuff-figures-windows">
+                            <figure class="team-figures-windows">
                                 <img
                                     src="images/studio/Frontend_Developer.jpg"
                                     alt="John Doe Frontend Developer"
@@ -161,7 +178,7 @@
                         </li>
 
                         <li>
-                            <figure class="stuff-figures-windows">
+                            <figure class="team-figures-windows">
                                 <img
                                     src="images/studio/Marketing.jpg"
                                     alt="John Doe Marketing"
@@ -176,7 +193,7 @@
                         </li>
 
                         <li>
-                            <figure class="stuff-figures-windows">
+                            <figure class="team-figures-windows">
                                 <img
                                     src="images/studio/UI_Designer.jpg"
                                     alt="John Doe UI Designer"
@@ -191,27 +208,32 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </section>
         </main>
         <footer>
-            <h2 id="main-page2">
-                <a href="/goit-markup-hw-02/index.html"
-                    ><span class="web2">Web</span
-                    ><span class="studio2">Studio</span></a
-                >
-            </h2>
-            <div class="main-address">
-                <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-                <br />
+            <section class="section navigation-footer">
+                <div class="container">
+                    <h2 id="main-page2">
+                        <a href="/goit-markup-hw-02/index.html"
+                            ><span class="web2">Web</span
+                            ><span class="studio2">Studio</span></a
+                        >
+                    </h2>
 
-                <a class="main-address-link" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                ><br />
+                    <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+                    <div class="main-address">
+                        <a
+                            class="main-address-link"
+                            href="mailto:info@devstudio.com"
+                            >info@devstudio.com</a
+                        ><br />
 
-                <a class="main-address-link" href="tel:+48111111111"
-                    >+48111111111</a
-                >
-            </div>
+                        <a class="main-address-link" href="tel:+48111111111"
+                            >+48111111111</a
+                        >
+                    </div>
+                </div>
+            </section>
         </footer>
     </body>
 </html>

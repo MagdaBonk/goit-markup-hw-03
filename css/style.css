@@ -3,18 +3,29 @@ body {
     color: #000000;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 :root {
-    --contacts-color: #757575;
-    --links: #000000;
-    --button: #2196f3;
-    --button2: #ffffff;
+    --descriptions-color: #757575;
+    --black-color: #000000;
+    --accent-color: #2196f3;
+    --white-color: #ffffff;
     --footer-color: #2f303a;
     --stress-color: #2196f3;
     --main-front-size: 14px;
     --letter-spacing: 0.03em;
+    --letter-spacing-big: 0.06em;
 }
 
-#main-page a {
+.container {
+    margin: auto;
+}
+
+#navigation-logo a {
     text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-size: 26px;
@@ -35,9 +46,9 @@ header {
     height: 80px;
 }
 
-.navigation a {
+.navigation-menu a {
     text-decoration: none;
-    color: var(--links);
+    color: var(--black-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1.38;
@@ -49,7 +60,7 @@ header {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.38;
-    color: var(--contacts-color);
+    color: var(--descriptions-color);
 }
 
 header a:hover,
@@ -57,13 +68,13 @@ header a:focus {
     color: #2196f3;
 }
 
-.service {
+.solutions {
     background-color: #2f303a;
     width: 100%;
     height: 600px;
 }
 
-.solutions {
+.solutions-text {
     color: #ffffff;
     font-weight: 900;
     font-size: 44px;
@@ -81,21 +92,21 @@ header a:focus {
     width: 200px;
     height: 50px;
     border: none;
-    background-color: var(--button);
+    background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-    color: var(--button2);
+    color: var(--white-color);
 }
 
-.advantages ul {
+.advantages {
     list-style-type: none;
 }
 
-.our-advantages {
+.advantages-title {
     font-weight: 700;
     font-size: var(--main-front-size);
     letter-spacing: var(--letter-spacing);
@@ -103,47 +114,42 @@ header a:focus {
     line-height: 100%;
 }
 
-.our-advantages-text {
+.advantages-text {
     font-size: var(--main-front-size);
     letter-spacing: var(--letter-spacing);
     vertical-align: top;
     line-height: 146%;
-    color: var(--contacts-color);
+    color: var(---descriptions-color);
 }
 
-.work {
+.work-title {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: var(--letter-spacing);
     text-align: center;
 }
 
-.our-work {
+.work {
     list-style-type: none;
 }
 
-.our-work-img img {
-    width: 370px;
-    height: 294px;
-}
-
-.stuff {
+.team {
     background-color: #f5f4fa;
     width: 100%;
 }
 
-.our-stuff {
+.team-title {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: var(--letter-spacing);
     text-align: center;
 }
 
-.stuff-figures {
+.team-figures {
     list-style-type: none;
 }
 
-.stuff-figures-windows {
+.team-figures-windows {
     width: 250px;
     height: 368px;
     background-color: #ffffff;
@@ -178,15 +184,15 @@ footer {
 }
 
 .web2 {
-    color: var(--button);
+    color: var(--accent-color);
 }
 
 .studio2 {
-    color: var(--button2);
+    color: var(--white-color);
 }
 
 address {
-    color: var(--button2);
+    color: var(--white-color);
     font-size: var(--main-front-size);
     vertical-align: top;
     letter-spacing: var(--letter-spacing);
@@ -224,7 +230,7 @@ address {
 
 .button-portfolio:hover,
 .button-portfolio:focus {
-    color: var(--button2);
+    color: var(--white-color);
     background-color: #2196f3;
 }
 
@@ -245,7 +251,7 @@ address {
 }
 
 .portfolio-text {
-    color: var(--contacts-color);
+    color: var(--descriptions-color);
     font-size: 16px;
     letter-spacing: var(--letter-spacing);
     vertical-align: top;
