@@ -32,6 +32,10 @@ ul {
 
 /* header */
 
+header {
+    border-bottom: 1px solid #ececec;
+}
+
 .main-navbar {
     display: flex;
     justify-content: space-between;
@@ -236,6 +240,8 @@ header a:focus {
     letter-spacing: var(--letter-spacing);
 }
 
+/* footer */
+
 footer {
     background-color: #2f303a;
     width: 100%;
@@ -267,7 +273,7 @@ address {
     vertical-align: top;
     letter-spacing: var(--letter-spacing);
     font-style: normal;
-    margin-bottom: 9px;
+    padding-bottom: 9px;
 }
 
 .main-address a {
@@ -277,13 +283,14 @@ address {
     font-style: normal;
     letter-spacing: var(--letter-spacing);
     font-size: var(--main-font-size);
-    padding: 9px;
 }
 
 .main-address a:hover,
 .main-address a:focus {
     color: #2196f3;
 }
+
+/* portfolio */
 
 .button-portfolio-all {
     list-style-type: none;
