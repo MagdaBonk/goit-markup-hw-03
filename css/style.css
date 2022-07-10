@@ -146,7 +146,6 @@ header a:focus {
 .advantages {
     list-style-type: none;
     display: flex;
-    gap: 30px;
 }
 
 .advantages-title {
@@ -167,6 +166,10 @@ header a:focus {
     margin-bottom: 0;
 }
 
+.whatwedo {
+    padding-top: 0%;
+}
+
 .work-title {
     font-size: 36px;
     font-weight: 700;
@@ -179,17 +182,15 @@ header a:focus {
     list-style-type: none;
 }
 
-li:not(:last-child) {
-    margin-right: 30px;
-}
-
-.work li {
-    display: inline-block;
+.work-list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .team {
     background-color: #f5f4fa;
     width: 100%;
+    padding-top: 47px;
 }
 
 .team-list li {
@@ -215,6 +216,7 @@ li:not(:last-child) {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background-color: var(--white-color);
 }
 
 img {
