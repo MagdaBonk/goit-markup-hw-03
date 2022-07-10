@@ -290,6 +290,9 @@ address {
 .button-portfolio-all {
     list-style-type: none;
     display: flex;
+    margin-bottom: 50px;
+    gap: 10px;
+    justify-content: center;
 }
 
 .button-portfolio {
@@ -302,6 +305,7 @@ address {
     text-align: center;
     cursor: pointer;
     color: var(--links);
+    border-radius: 4px;
 }
 
 .button-portfolio:hover,
@@ -314,11 +318,14 @@ address {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .portfolio-things {
     width: 370px;
     height: 404px;
+    border: 1px solid #eeeeee;
+    margin: 0;
 }
 
 .portfolio-things-tittle {
@@ -338,8 +345,6 @@ address {
     padding-left: 24px;
 }
 
-.portfolio-thing figcaption {
-    border-bottom: 1px solid #eeeeee;
-    border-left: 1px solid #eeeeee;
-    border-right: 1px solid #eeeeee;
+.portfolio-things img {
+    max-width: 100%;
 }
