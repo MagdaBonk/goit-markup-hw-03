@@ -188,12 +188,11 @@ header a:focus {
 
 .work-list {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .team {
     background-color: #f5f4fa;
-    padding-top: 47px;
 }
 
 .team-title {
@@ -202,19 +201,13 @@ header a:focus {
     letter-spacing: var(--letter-spacing);
     text-align: center;
     line-height: 1.17;
+    margin-top: 0;
 }
 
 .team-figures {
     list-style-type: none;
     display: inline-flex;
-}
-
-.team figure:first-of-type {
-    margin-left: 0;
-}
-
-.team figure:last-of-type {
-    margin-left: 0;
+    gap: 30px;
 }
 
 .team-card {
@@ -224,6 +217,7 @@ header a:focus {
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--white-color);
+    margin: 0;
 }
 
 .team-card-description {
@@ -283,6 +277,7 @@ address {
     font-style: normal;
     letter-spacing: var(--letter-spacing);
     font-size: var(--main-font-size);
+    padding-bottom: 9px;
 }
 
 .main-address a:hover,
@@ -319,13 +314,11 @@ address {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .portfolio-things {
     width: 370px;
     height: 404px;
-    margin: 15px;
 }
 
 .portfolio-things-tittle {
